@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalones-Undr.Cntrl</title>
+</head>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        .menu-principal {
+            background-color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+
+        .menu-principal ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            flex-grow: 1;
+        }
+
+        .menu-principal li {
+            margin-left: 20px;
+        }
+
+        .menu-principal a {
+            color: #000;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 10px;
+        }
+
+        .Pantalones {
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            text-align: center; 
+        }
+
+        .Pantalones h2 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: center; 
+            margin-bottom: 20px; 
+        }
+
+        .producto {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .producto img {
+            width: 50%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .producto h3 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.3em;
+            color: black;
+            margin: 10px 0;
+        }
+
+        .producto p {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1em;
+            color: black;
+            margin-bottom: 15px;
+        }
+
+        .producto button {
+            background-color: #000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .producto button:hover {
+            background-color: lightgray;
+        }
+
+        .main-button {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .main-button button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            font-family: Arial, sans-serif;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .main-button button:hover {
+            background-color: gray;
+        }
+            
+        footer {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #333333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            margin-top: 20px;
+            clear: both;
+        }
+    </style>
+
+<body>
+    <header>
+        <h1>UNDR.CNTRL</h1>
+        <p>Moda sostenible y personalizada.</p>
+    </header>
+
+    <nav class="menu-principal">
+        <ul>
+            <li><a href="Camisetas.html">CAMISETAS</a></li>
+            <li><a href="Pantalones.html">PANTALONES</a></li>
+            <li><a href="Accesorios.html">ACCESORIOS</a></li>
+            <li><a href="Customize.html">CUSTOMIZE</a></li>
+        </ul>
+    </nav>
+    
+    <section class="Pantalones">
+        <h2>Pantalones</h2>
+        <div class="producto">
+            <img src="Pantalón.jpg" alt="Pantalón sostenible">
+            <h3>Pantalón Sostenible</h3>
+            <p>Comodidad y estilo con un enfoque en el medio ambiente.</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="Pantalón2.jpg" alt="Pantalón básico">
+            <h3>Pantalón Básico</h3>
+            <p>El básico que no puede faltar.</p>
+            <button>Agregar al carrito</button>
+        </div>
+        <div class="producto">
+            <img src="Pantalón3.jpg" alt="Pantalón edición limitada">
+            <h3>Pantalón Edición Limitada</h3>
+            <p>Único, ideal para destacar tu estilo.</p>
+            <button>Agregar al carrito</button>
+        </div>
+    </section>
+
+    <div class="main-button">
+        <a href="Semestral.html">
+            <button>Menú principal</button>
+        </a>
+    </div>
+
+    <footer>
+        <p>© 2024 Undr.Cntrl. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

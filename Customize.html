@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize-Undr.Cntrl</title>
+</head>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        .menu-principal {
+            background-color: white;
+            padding: 10px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+        }
+
+        .menu-principal ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+            flex-grow: 1;
+        }
+
+        .menu-principal li {
+            margin-left: 20px;
+        }
+
+        .menu-principal a {
+            color: #000;
+            text-decoration: none;
+            font-size: 14px;
+            padding: 10px;
+        }
+
+        .customization {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto;
+        }
+
+        .customization h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 1.5em;
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .shirt img {
+            width: 300px;
+            height: auto;
+            padding: 20px;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #000000;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: gray;
+        }
+
+        .main-button {
+        text-align: center; 
+        margin: 20px 0; 
+        }
+
+        .main-button button {
+        background-color: black; 
+        color: white; 
+        border: none;
+        padding: 10px 20px; 
+        font-size: 1em; 
+        font-family: Arial, sans-serif; 
+        cursor: pointer; 
+        border-radius: 5px; 
+        transition: background-color 0.3s ease; 
+        }
+
+        .main-button button:hover {
+        background-color: gray; 
+        }
+    
+        footer {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #333333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+        margin-top: 20px;
+        clear: both;
+        }
+    </style>
+
+<body>
+    <header>
+        <h1>UNDR.CNTRL</h1>
+        <p>Moda sostenible y personalizada.</p>
+    </header>
+
+    <nav class="menu-principal">
+        <ul>
+            <li><a href="Camisetas.html">CAMISETAS</a></li>
+            <li><a href="Pantalones.html">PANTALONES</a></li>
+            <li><a href="Accesorios.html">ACCESORIOS</a></li>
+            <li><a href="Customize.html">CUSTOMIZE</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="customization">
+            <h1>¡Personaliza tu camiseta!</h1>
+            <div class="shirt">
+                <img src="CamisetaBlancaP.jpg" alt="Camiseta Blanca">
+            </div>
+            <div class="button-container">
+                <a href="https://www.canva.com/design/DAGXzIq8Aag/WBDsPPTkqbbKEUI_AYQm_A/edit?utm_content=DAGXzIq8Aag&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">
+                    <button>Personalizar</button>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <div class="main-button">
+        <a href="Semestral.html">
+            <button>Menú principal</button>
+        </a>
+    </div>
+
+    <footer>
+        <p>© 2024 Undr.Cntrl. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
